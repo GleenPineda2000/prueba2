@@ -8,35 +8,46 @@
 
     <Button
         android:id="@+id/btningresar"
-        android:layout_width="339dp"
-        android:layout_height="141dp"
+        android:layout_width="252dp"
+        android:layout_height="78dp"
         android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintVertical_bias="0.128" />
 
     <Button
         android:id="@+id/btn_lista"
-        android:layout_width="333dp"
-        android:layout_height="133dp"
+        android:layout_width="264dp"
+        android:layout_height="98dp"
         android:text="presione"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btningresar"
-        app:layout_constraintVertical_bias="0.586" />
+        app:layout_constraintVertical_bias="0.493" />
 
     <Button
         android:id="@+id/btn_combo"
-        android:layout_width="293dp"
-        android:layout_height="123dp"
+        android:layout_width="244dp"
+        android:layout_height="96dp"
         android:text="mostrar lista"
         app:layout_constraintBottom_toTopOf="@+id/btn_lista"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btningresar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="215dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lista"
+        app:srcCompat="@drawable/baseline_crop_original_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
